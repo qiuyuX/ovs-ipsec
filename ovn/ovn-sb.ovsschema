@@ -1,7 +1,7 @@
 {
     "name": "OVN_Southbound",
-    "version": "1.16.0",
-    "cksum": "3046632234 14844",
+    "version": "1.17.0",
+    "cksum": "3604753998 14890",
     "tables": {
         "SB_Global": {
             "columns": {
@@ -17,7 +17,8 @@
                 "ssl": {
                     "type": {"key": {"type": "uuid",
                                      "refTable": "SSL"},
-                                     "min": 0, "max": 1}}},
+                                     "min": 0, "max": 1}},
+                "ipsec": {"type": "boolean"}},
             "maxRows": 1,
             "isRoot": true},
         "Chassis": {
